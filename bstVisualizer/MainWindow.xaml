@@ -1,0 +1,22 @@
+﻿<Window x:Class="bstVisualizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:bstVisualizer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800" Background="Black">
+    <Grid x:Name="grid">
+        <Ellipse x:Name="root" Fill="White" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="40" Margin="0,20,0,0" Visibility="Visible"/>
+        <TextBox x:Name="insertTextbox" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="95" Margin="274,478,0,0" Background="{x:Null}" Foreground="White" FontSize="18"/>
+        <Label x:Name="insertLabel" Content="insert :" HorizontalAlignment="Left" Height="31" Margin="204,474,0,0" VerticalAlignment="Top" Width="67" Foreground="White" FontSize="18"/>
+        <Label x:Name="deletLabel" Content="delete :" HorizontalAlignment="Left" Height="31" Margin="418,474,0,0" VerticalAlignment="Top" Width="67" Foreground="White" FontSize="18"/>
+        <TextBox x:Name="deleteTextbox" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="95" Margin="490,474,0,0" Background="{x:Null}" Foreground="White" FontSize="18"/>
+        <Label x:Name="label" Content="88" HorizontalAlignment="Center" Margin="382,23,382,467" Width="28" Foreground="Black" FontSize="16">
+            <Label.BindingGroup>
+                <BindingGroup/>
+            </Label.BindingGroup>
+        </Label>
+
+    </Grid>
+</Window>

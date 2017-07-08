@@ -1,0 +1,14 @@
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\bin\Debug\bstVisualizer.exe.config
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\bin\Debug\bstVisualizer.exe
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\bin\Debug\bstVisualizer.pdb
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.csprojResolveAssemblyReference.cache
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\MainWindow.g.cs
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\App.g.cs
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer_MarkupCompile.cache
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer_MarkupCompile.lref
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\MainWindow.baml
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.g.resources
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.Properties.Resources.resources
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.csproj.GenerateResource.Cache
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.exe
+c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.pdb
