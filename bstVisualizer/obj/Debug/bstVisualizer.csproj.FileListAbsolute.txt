@@ -12,3 +12,17 @@ c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVi
 c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.csproj.GenerateResource.Cache
 c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.exe
 c:\users\gmrinstructor\documents\visual studio 2015\Projects\bstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.pdb
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\bin\Debug\bstVisualizer.exe.config
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.exe
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.pdb
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\bin\Debug\bstVisualizer.exe
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\bin\Debug\bstVisualizer.pdb
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.csprojResolveAssemblyReference.cache
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\MainWindow.g.cs
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\App.g.cs
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\bstVisualizer_MarkupCompile.cache
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\bstVisualizer_MarkupCompile.lref
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\MainWindow.baml
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.g.resources
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.Properties.Resources.resources
+C:\Users\AlyssaFrederick\Documents\github\BstVisualizer\bstVisualizer\obj\Debug\bstVisualizer.csproj.GenerateResource.Cache

@@ -25,21 +25,47 @@ namespace bstVisualizer
 
             InitializeComponent();
 
-            Label number = new Label();           
+        }
+
+        private void insertButton_Click(object sender, RoutedEventArgs e)
+        {
+            int num2Binserted = Convert.ToInt32(insertTextbox.Text);
+            int rootNum = Convert.ToInt32(rootLabel.Content);
+
+            if (insertTextbox.Text == "")
+            {
+                return;
+            }
+
+            Label number = new Label();
             Ellipse ell = new Ellipse();
 
             ell.Height = ell.Width = 40;
-            ell.Fill = new SolidColorBrush(Color.FromRgb(0, 0, 255));
-            number.Content = "hi";
-            number.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 0, 0));
+            ell.Fill = new SolidColorBrush(Color.FromArgb(200, 10, 60, 80));
+            number.Content = insertTextbox.Text;
+            number.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255));
 
-
-            ell.Margin = number.Margin = new Thickness(200, 100, 20, 100);
+            
             ell.HorizontalAlignment = number.HorizontalAlignment = HorizontalAlignment.Center;
             ell.VerticalAlignment = number.VerticalAlignment = VerticalAlignment.Center;
 
+         
+
+            if (num2Binserted > rootNum)
+            {
+                ell.Margin = number.Margin = new Thickness(0, 0, 80, 300);
+            }
+
+            //
+
             grid.Children.Add(ell);
             grid.Children.Add(number);
+
+        }
+
+        private void deleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

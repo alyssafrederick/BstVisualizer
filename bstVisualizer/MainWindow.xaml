@@ -8,15 +8,13 @@
         Title="MainWindow" Height="550" Width="800" Background="Black">
     <Grid x:Name="grid">
         <Ellipse x:Name="root" Fill="White" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="40" Margin="0,20,0,0" Visibility="Visible"/>
-        <TextBox x:Name="insertTextbox" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="95" Margin="274,478,0,0" Background="{x:Null}" Foreground="White" FontSize="18"/>
-        <Label x:Name="insertLabel" Content="insert :" HorizontalAlignment="Left" Height="31" Margin="204,474,0,0" VerticalAlignment="Top" Width="67" Foreground="White" FontSize="18"/>
-        <Label x:Name="deletLabel" Content="delete :" HorizontalAlignment="Left" Height="31" Margin="418,474,0,0" VerticalAlignment="Top" Width="67" Foreground="White" FontSize="18"/>
-        <TextBox x:Name="deleteTextbox" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="95" Margin="490,474,0,0" Background="{x:Null}" Foreground="White" FontSize="18"/>
-        <Label x:Name="label" Content="88" HorizontalAlignment="Center" Margin="382,23,382,467" Width="28" Foreground="Black" FontSize="16">
-            <Label.BindingGroup>
-                <BindingGroup/>
-            </Label.BindingGroup>
-        </Label>
+        <Label x:Name="rootLabel" Content="88" HorizontalAlignment="Center" Margin="382,23,382,459" Width="28" Foreground="Black" FontSize="16"/>
+
+        <TextBox x:Name="insertTextbox" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="95" Margin="262,0,0,20" Background="{x:Null}" Foreground="White" FontSize="18" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="deleteTextbox" HorizontalAlignment="Right" Height="31" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="95" Margin="0,0,168,20" Background="{x:Null}" Foreground="White" FontSize="18"/>
+
+        <Button x:Name="insertButton" Content="insert" HorizontalAlignment="Left" Height="31" Margin="171,0,0,20" VerticalAlignment="Bottom" Width="86" BorderBrush="White" Background="White" FontSize="16" Click="insertButton_Click"/>
+        <Button x:Name="deleteButton" Content="delete" HorizontalAlignment="Right" Height="31" Margin="0,0,268,20" VerticalAlignment="Bottom" Width="86" Background="White" BorderBrush="White" FontSize="16" Foreground="Black" Click="deleteButton_Click"/>
 
     </Grid>
 </Window>
