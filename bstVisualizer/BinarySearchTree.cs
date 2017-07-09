@@ -11,51 +11,52 @@ namespace bstVisualizer
         public BSTNode<T> Root;
         public bool IsEmpty => Root == null;
 
-        public void Add(T value)
+        public BSTNode<T> Add(T value)
         {
             //if there is no head, insert the BSTNode as the root
             if (Root == null)
             {
                 Root = new BSTNode<T>(value);
-                return;
+                return Root;
             }
 
             //if there is a root
-            if (Root != null)
+
+            BSTNode<T> current = Root;
+
+
+            while (current != null)
             {
-                BSTNode<T> current = Root;
 
-
-                while (current != null)
+                //if the new bstNodes value is less than the root's value-> the new bstnode would be on left of root  
+                if (current.Value.CompareTo(value) > 0)
                 {
-
-                    //if the new bstNodes value is less than the root's value-> the new bstnode would be on left of root  
-                    if (current.Value.CompareTo(value) > 0)
+                    if (current.leftChild == null)
                     {
-                        if (current.leftChild == null)
-                        {
-                            current.leftChild = new BSTNode<T>(value);
-                            current.leftChild.parent = current;
-                            return;
-                        }
-
-                        current = current.leftChild;
-
+                        current.leftChild = new BSTNode<T>(value);
+                        current.leftChild.parent = current;
+                        return current;
                     }
-                    //if the new bstNodes value is greater than that of the root-> the new bstnode would be on the right of root
-                    else if (current.Value.CompareTo(value) <= 0)
+
+                    current = current.leftChild;
+
+                }
+                //if the new bstNodes value is greater than that of the root-> the new bstnode would be on the right of root
+                else if (current.Value.CompareTo(value) <= 0)
+                {
+                    if (current.rightChild == null)
                     {
-                        if (current.rightChild == null)
-                        {
-                            current.rightChild = new BSTNode<T>(value);
-                            current.rightChild.parent = current;
-                            return;
-                        }
-
-                        current = current.rightChild;
+                        current.rightChild = new BSTNode<T>(value);
+                        current.rightChild.parent = current;
+                        return current;
                     }
+
+                    current = current.rightChild;
                 }
             }
+
+            return current;
+
         }
 
         public bool Remove(T value)

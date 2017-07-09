@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="570" Width="820" Background="Black">
     <Grid x:Name="grid" Margin="0,1,0,-1">
-        <Ellipse x:Name="root" Fill="#C70A3C50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="376,16,376,463" Height="40" Stroke="Black" Width="40"/>
+        <Ellipse x:Name="head" Fill="#C70A3C50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="376,16,376,463" Height="40" Stroke="Black" Width="40"/>
         <Label x:Name="rootLabel" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="376,16,376,463" Width="40" Foreground="White" FontSize="12" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
         <TextBox x:Name="insertTextbox" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="95" Margin="262,0,0,20" Background="{x:Null}" Foreground="White" FontSize="18" HorizontalContentAlignment="Center"/>
