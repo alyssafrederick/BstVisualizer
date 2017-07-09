@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:bstVisualizer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="800" Background="Black">
-    <Grid x:Name="grid">
-        <Ellipse x:Name="root" Fill="White" HorizontalAlignment="Center" Height="40" Stroke="Black" VerticalAlignment="Top" Width="40" Margin="0,20,0,0" Visibility="Visible"/>
-        <Label x:Name="rootLabel" Content="88" HorizontalAlignment="Center" Margin="382,23,382,459" Width="28" Foreground="Black" FontSize="16"/>
+        Title="MainWindow" Height="570" Width="820" Background="Black">
+    <Grid x:Name="grid" Margin="0,1,0,-1">
+        <Ellipse x:Name="root" Fill="#C70A3C50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="376,16,376,463" Height="40" Stroke="Black" Width="40"/>
+        <Label x:Name="rootLabel" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="376,16,376,463" Width="40" Foreground="White" FontSize="12" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
         <TextBox x:Name="insertTextbox" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="95" Margin="262,0,0,20" Background="{x:Null}" Foreground="White" FontSize="18" HorizontalContentAlignment="Center"/>
         <TextBox x:Name="deleteTextbox" HorizontalAlignment="Right" Height="31" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="95" Margin="0,0,168,20" Background="{x:Null}" Foreground="White" FontSize="18"/>
