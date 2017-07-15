@@ -35,7 +35,7 @@ namespace bstVisualizer
                     {
                         current.leftChild = new BSTNode<T>(value);
                         current.leftChild.parent = current;
-                        return current;
+                        return current.leftChild;
                     }
 
                     current = current.leftChild;
@@ -48,7 +48,7 @@ namespace bstVisualizer
                     {
                         current.rightChild = new BSTNode<T>(value);
                         current.rightChild.parent = current;
-                        return current;
+                        return current.rightChild;
                     }
 
                     current = current.rightChild;

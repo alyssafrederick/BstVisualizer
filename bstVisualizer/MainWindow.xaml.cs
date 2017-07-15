@@ -32,7 +32,7 @@ namespace bstVisualizer
             tree = new BinarySearchTree<VisualNode>();
 
             head = new VisualNode();
-            head.ell = root;
+            head.ell = rootcircle;
 
         }
 
@@ -44,7 +44,7 @@ namespace bstVisualizer
                 return;
             }
 
-            //if there is no root the inserted number is the root
+            //if there is nothing in the rootLabel, then the inserted number is the root
             if (rootLabel.Content.ToString() == "")
             {
                 rootLabel.Content = insertTextbox.Text;
@@ -61,7 +61,7 @@ namespace bstVisualizer
 
                 VisualNode newNode = new VisualNode(num2Binserted);
                 BSTNode<VisualNode> mother = tree.Add(newNode).parent;
- //fix                  newNode.FixPosition(mother.Value);
+                newNode.FixPosition(mother.Value, mother.parent == null);
 
                 insertTextbox.Text = "";
 

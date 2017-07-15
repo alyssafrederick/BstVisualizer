@@ -33,18 +33,27 @@ namespace bstVisualizer
 
             ell.HorizontalAlignment = number.HorizontalAlignment = HorizontalAlignment.Center;
             ell.VerticalAlignment = number.VerticalAlignment = VerticalAlignment.Center;
+            
         }
 
-        public void FixPosition(VisualNode parent)
+        public void FixPosition(VisualNode parent, bool firstChild)
         {
             if ((int)number.Content < (int)parent.number.Content)
             {
-                ell.Margin = number.Margin = new Thickness(-50 + parent.ell.Margin.Left, 50 + parent.ell.Margin.Top, 50 + parent.ell.Margin.Right, -50 + parent.ell.Margin.Bottom);
-                //new Thickness(0, 0, 80, 300);
+                ell.Margin = number.Margin = new Thickness(parent.ell.Margin.Left - 40, parent.ell.Margin.Top + 40, parent.ell.Margin.Right + 40, parent.ell.Margin.Bottom - 40);
+                if(firstChild)
+                {
+                    ell.Margin = number.Margin = new Thickness(ell.Margin.Left, ell.Margin.Top - 200, ell.Margin.Right, ell.Margin.Bottom + 200);
+                }
             }
+
             else if ((int)number.Content >= (int)parent.number.Content)
             {
-                ell.Margin = number.Margin = new Thickness(50 + parent.ell.Margin.Left, 50 + parent.ell.Margin.Top, -50 + parent.ell.Margin.Right, -50 + parent.ell.Margin.Bottom);
+                ell.Margin = number.Margin = new Thickness(parent.ell.Margin.Left + 40, parent.ell.Margin.Top + 40, parent.ell.Margin.Right - 40, parent.ell.Margin.Bottom - 40);
+                if (firstChild)
+                {
+                    ell.Margin = number.Margin = new Thickness(ell.Margin.Left, ell.Margin.Top - 200, ell.Margin.Right, ell.Margin.Bottom + 200);
+                }
             }
         }
 

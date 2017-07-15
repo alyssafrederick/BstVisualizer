@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="570" Width="820" Background="Black">
     <Grid x:Name="grid" Margin="0,1,0,-1">
-        <Ellipse x:Name="head" Fill="#C70A3C50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="376,16,376,463" Height="40" Stroke="Black" Width="40"/>
+        <Ellipse x:Name="rootcircle" Fill="#C70A3C50" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="376,16,376,463" Height="40" Stroke="Black" Width="40"/>
         <Label x:Name="rootLabel" Content="" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="376,16,376,463" Width="40" Foreground="White" FontSize="12" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
         <TextBox x:Name="insertTextbox" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="95" Margin="262,0,0,20" Background="{x:Null}" Foreground="White" FontSize="18" HorizontalContentAlignment="Center"/>
@@ -15,6 +15,7 @@
 
         <Button x:Name="insertButton" Content="insert" HorizontalAlignment="Left" Height="31" Margin="171,0,0,20" VerticalAlignment="Bottom" Width="86" BorderBrush="White" Background="White" FontSize="16" Click="insertButton_Click"/>
         <Button x:Name="deleteButton" Content="delete" HorizontalAlignment="Right" Height="31" Margin="0,0,268,20" VerticalAlignment="Bottom" Width="86" Background="White" BorderBrush="White" FontSize="16" Foreground="Black" Click="deleteButton_Click"/>
+
 
     </Grid>
 </Window>
